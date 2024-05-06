@@ -1,11 +1,11 @@
-# odin-recipes
-Odin Food Project
+# Odin-recipes
+`Odin Food Project || Picos, Simply, Tacos`
 
-#Topic Covered in this Project
+# Topic Covered in this Project
 
 - Author: Agent1C
 
-*I will Cover and Demonstrate what ive learned in the Odin Project*
+*I will Cover and Demonstrate what i've learned in the Odin Project*
 
 - HTML
 - CSS
