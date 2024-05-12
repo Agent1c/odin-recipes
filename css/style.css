@@ -1,0 +1,35 @@
+*{
+    line-height: 1.5;
+}
+#div-Container{
+    background-color: cadetblue;
+}
+
+.top-Header{
+    background-color: brown;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 2em;
+    color: #fff;
+    margin: auto 2em;
+}
+h2, h3{
+    color: darkred;
+}
+ul{
+    list-style: none;
+}
+img{
+    height: auto;
+    width: 500px;
+}
+
+.banner p{
+    background-color: chocolate;
+    color: white;
+}
