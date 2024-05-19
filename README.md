@@ -3,7 +3,7 @@
 
 # Topic Covered in this Project
 
-# `Author: Agent1C`
+###  `Author: Agent1C`
 
 *I will Cover and Demonstrate what i've learned in the Odin Project*
 
