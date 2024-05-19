@@ -1,35 +1,79 @@
-*{
-    line-height: 1.5;
+/* Resetting the Box */
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#fff;
 }
+
 #div-Container{
     background-color: cadetblue;
+    margin: 0 auto;
+    width: 70%;
+ 
 }
 
 .top-Header{
     background-color: brown;
 }
 
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.top-Header > p{
+    /* border: 2px solid blueviolet; */
+    font-size: 2em;
+    margin: 0 2px 0 0;
 }
 
 h1{
+    font-family: "Sofia", "Audiowide","Trirong", sans-serif;
     font-size: 2em;
-    color: #fff;
-    margin: auto 2em;
+    /* color: #fff; */
+    margin: .3em 0;
+
 }
-h2, h3{
+
+h2{
     color: darkred;
 }
-ul{
-    list-style: none;
+
+a{
+    text-decoration: none;
+    
 }
-img{
+
+.food_links{
+    display: inline-flex ;
+    background-color: black;
+    border: 3px solid mediumvioletred;
+}
+
+
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    /* width: 80px;
+    height: 40px;*/
+} 
+
+/* .banner{
+    display: block;
+    width: 550px;
+    height: auto;
+} */
+
+.banner > img{
+    display: block;
     height: auto;
     width: 500px;
 }
 
 .banner p{
     background-color: chocolate;
-    color: white;
+    /* color: white; */
 }

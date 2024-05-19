@@ -3,9 +3,25 @@
 
 # Topic Covered in this Project
 
-- Author: Agent1C
+# `Author: Agent1C`
 
 *I will Cover and Demonstrate what i've learned in the Odin Project*
+
+## HTML
+- BasicBlocks
+- Lists
+- Links
+- Images
+
+## CSS
+- Selectors
+- Styling
+
+## Git
+- Git
+- Github
+
+## What I will be using
 
 - HTML
 - CSS
