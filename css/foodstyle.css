@@ -1,41 +1,55 @@
 /* Resetting the Box */
 html {
     box-sizing: border-box;
-  }
+}
 
-  *, 
-  *::before, 
-  *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-  }
+}
 
-body{
-    font-family: "Sofia", "Audiowide","Trirong", sans-serif;
-    background:#0D0D0D;
+body {
+    font-family: "Sofia", "Audiowide", "Trirong", sans-serif;
+    background: #0D0D0D;
     color: #fff;
 }
 
-.foodMenu{
+#container {
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    width: 960px;
+}
+.top-header {
+    background: #8C2703;
+    padding: 5px;
+    border-top: 2em solid #F2D8C9;
+}
+
+.top-header h1 a {
+    font-family: "Audiowide";
+    font-size: 32pt;
+    color: #ffffff;
+    margin: 0 .2em;
+    padding: 0;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Trirong";
+    font-size: 1.3em;
+    margin-bottom: .8em;
+    border-bottom: dashed;
+
+}
+
+.foodMenu {
     background: #667302;
     padding: .3em;
 }
 
-.top-header h1{
-    font-family:"Audiowide";
-    font-size: 32pt;
-    margin: 0 .2em;
-    padding: 0;
-}
-
-h2{
-    font-family:"Trirong";
-    font-size: 1.3em;
-    margin-bottom: .8em;
-    border-bottom:dashed ;
-
-}
-
-.banner{
+.banner {
     /* width: 600px; */
     /* height: auto;
     display:flex;
@@ -45,17 +59,38 @@ h2{
     flex-direction: column;
 
     /* width: 930px; */
-    
+
 }
 
-.banner img{
-    width: 400px;
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container div {
     flex: 1;
-    height: 300px; 
-    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 400px;
+    
+    }
+    
+    .banner .banner-container p {
+        /* border: 3px solid #0D0D0D; */
+        border-radius: 13px;
+        line-height: 1.5;
+        font-family: "Antic Slab", serif;
+        font-size: large;
 }
 
-ul, ol{
+.banner .banner-container img{
+     border-radius: 15px;
+     max-width: 300px;
+}
+
+ul,
+ol {
     list-style-type: disclosure-closed;
     padding-left: 4em;
+    font-family: "Antic Slab", serif;
 }
