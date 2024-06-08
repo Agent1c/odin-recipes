@@ -1,53 +1,58 @@
 /* Resetting the Box */
 html {
     box-sizing: border-box;
-  }
+}
 
-  *, 
-  *::before, 
-  *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-  }
+}
 
-body{
-    font-family: "Sofia", "Audiowide","Trirong", sans-serif;
-    background:#0D0D0D;
+body {
+    font-family: "Sofia", "Audiowide", "Trirong", sans-serif;
+    background: #0D0D0D;
     color: #fff;
 }
 
 /* Direct Selector styling */
-.foodMenu{
-    background: #667302;
+
+h2 {
+    font-family: "Trirong";
+    font-size: 1.3em;
+    margin-bottom: .8em;
+    border-bottom: dashed;
+
+}
+
+.foodMenu {
+    background: #e68a00;
     padding: .3em;
 }
 
-h2{
-    font-family:"Trirong";
-    font-size: 1.3em;
-    margin-bottom: .8em;
-    border-bottom:dashed ;
+.foodMenu ul {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 
 }
 
-.foodMenu :nth-child(2){
-    /* border: 1px solid #8C2703 ; */
-    padding: .8em;
-    /* margin: .7em; */
-}
 
-li{
+
+.foodMenu li {
+    border-radius: 12px;
+    background: #8C2703;
     display: inline;
     list-style-type: none;
-    padding: 1em;
-    margin: .2em;
-    background:#8C2703;
-    
+    padding: .752em;
+    /* margin: .2em; */
+
 }
 
-a{
+.foodMenu a {
     /* margin: .3em; */
     text-decoration: none;
-    font-size: 20pt;
+    font-size: 15pt;
     color: #fff;
     font-family: "Antic Slab", serif;
 
@@ -55,52 +60,57 @@ a{
 
 /* END of Selectors */
 
-#container{
+#container {
     margin: 0 auto;
     display: block;
     height: auto;
     width: 960px;
 }
 
-.top-header{
+.top-header {
     background: #8C2703;
     padding: 5px;
-    border-top:2em solid #F2D8C9 ;
+    border-top: 2em solid #F2D8C9;
 }
-.top-header h1{
-    font-family:"Audiowide";
+
+.top-header h1 {
+    font-family: "Audiowide";
     font-size: 32pt;
     margin: 0 .2em;
     padding: 0;
+    list-style-type: none;
 }
-.top-header :last-child{
+
+.top-header :last-child {
     margin: 0 .8em;
     font-size: 16pt;
     padding: 0;
-    border-bottom: 3px dashed ;
+    border-bottom: 3px dashed;
 
 
 }
 
-.banner{
+.banner {
     /* width: 600px; */
     height: auto;
-    display:inline-flex;
+    display: inline-flex;
     margin: 0 auto;
     background: #F25C05;
-    
+
 }
 
-.banner :first-child{
+.banner :first-child {
     margin: .5em;
+    max-width: 600px;
+    border-radius: 13px;
 
 }
 
-.banner :last-child{
-    font-size:16px;
+.banner :last-child {
+    font-size: 16px;
     font-family: "Antic Slab", serif;
     font-weight: 400;
     line-height: 1.7em;
-    border-top: 5px solid #F2D8C9; 
+    border-top: 5px solid #F2D8C9;
     margin-bottom: 5em;
 }
